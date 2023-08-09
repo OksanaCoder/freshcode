@@ -1,17 +1,26 @@
-/* img{
-  width: 100%;
-  object-fit: cover;
-}
-.slide{
-  width: 60%;
-  min-width: 500px;
-  margin: auto;
-} */
+
 
 button {
-  color: aqua;
+  color: black;
+  background: none;
+  padding: 20px 50px;
 }
-
 .flex-parent {
   display: flex;
+}
+.btn-container > button, 
+.flex-parent {
+  border:  2px solid #4CC5EF;
+  text-transform: uppercase;
+}
+.flex-parent {
+  margin-top: 10px;
+  width: 70%;
+}
+.flex-child { 
+  background: #97DFFB;
+  margin: 1px;
+  text-align: center;
+  font-size: 20px;
+  color: #3B8BA6;
 }
